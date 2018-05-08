@@ -13,8 +13,7 @@ class App extends Component {
   render() {
     return (
       <div className="tc helvetica App">
-        <div className= "hop "> Countdown to {this.state.deadLine} </div>
-        <br/>
+        <div className= "f1 "> Countdown to {this.state.deadLine} </div>
         <br/>
         <Clock deadLine={this.state.deadLine}/>
       </div>

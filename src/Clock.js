@@ -29,9 +29,10 @@ class Clock extends Component {
 	}
 	render() {
 		return(
-			<div className= " hoppy">
+			<div className= " hoppy f3">
 	          <div className="Time"> {this.state.days} day(s) </div>
 	          <div className="Time">{this.state.hours} hour(s) </div>
+	          <br/>
 	          <div className="Time"> {this.state.minutes} minute(s) </div>
 	          <div className="Time">{this.state.seconds} second(s) </div>
 	        </div>
